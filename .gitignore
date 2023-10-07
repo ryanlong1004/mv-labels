@@ -1,3 +1,4 @@
 venv/
 .vscode/
 *mkv
+__pycache__/
