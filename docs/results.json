@@ -1,0 +1,356 @@
+{
+    "artists": {
+        "href": "https://api.spotify.com/v1/search?query=artist%3A+Counting+Crows&type=artist&offset=0&limit=10",
+        "items": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0vEsuISMWAKNctLlUAhSZC"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 1713254
+                },
+                "genres": [
+                    "neo mellow",
+                    "pop rock",
+                    "post-grunge",
+                    "rock"
+                ],
+                "href": "https://api.spotify.com/v1/artists/0vEsuISMWAKNctLlUAhSZC",
+                "id": "0vEsuISMWAKNctLlUAhSZC",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eba6f88c86470fd6350f4a5535",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174a6f88c86470fd6350f4a5535",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178a6f88c86470fd6350f4a5535",
+                        "width": 160
+                    }
+                ],
+                "name": "Counting Crows",
+                "popularity": 67,
+                "type": "artist",
+                "uri": "spotify:artist:0vEsuISMWAKNctLlUAhSZC"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/40ojB8ApYVpcfLDCkoSLDV"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 229
+                },
+                "genres": [
+                    "sleep"
+                ],
+                "href": "https://api.spotify.com/v1/artists/40ojB8ApYVpcfLDCkoSLDV",
+                "id": "40ojB8ApYVpcfLDCkoSLDV",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2731d9bf7897e4f163ac786cf9d",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e021d9bf7897e4f163ac786cf9d",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048511d9bf7897e4f163ac786cf9d",
+                        "width": 64
+                    }
+                ],
+                "name": "Counting Tides",
+                "popularity": 44,
+                "type": "artist",
+                "uri": "spotify:artist:40ojB8ApYVpcfLDCkoSLDV"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1oDbLbJSRUBBOp9SU6NOjI"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 4207
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1oDbLbJSRUBBOp9SU6NOjI",
+                "id": "1oDbLbJSRUBBOp9SU6NOjI",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb3c440e8ded13dd10533a22fa",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab676161000051743c440e8ded13dd10533a22fa",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f1783c440e8ded13dd10533a22fa",
+                        "width": 160
+                    }
+                ],
+                "name": "Count Von Count",
+                "popularity": 38,
+                "type": "artist",
+                "uri": "spotify:artist:1oDbLbJSRUBBOp9SU6NOjI"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6YZDL9HGVXTvZ04LoKSlIE"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 157
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/6YZDL9HGVXTvZ04LoKSlIE",
+                "id": "6YZDL9HGVXTvZ04LoKSlIE",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebd78f1d67ddf96c8ae06dad0a",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174d78f1d67ddf96c8ae06dad0a",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178d78f1d67ddf96c8ae06dad0a",
+                        "width": 160
+                    }
+                ],
+                "name": "Counting Waves",
+                "popularity": 24,
+                "type": "artist",
+                "uri": "spotify:artist:6YZDL9HGVXTvZ04LoKSlIE"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/451UU345Ht2CuGIrkCQHYP"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 13363
+                },
+                "genres": [
+                    "scorecore"
+                ],
+                "href": "https://api.spotify.com/v1/artists/451UU345Ht2CuGIrkCQHYP",
+                "id": "451UU345Ht2CuGIrkCQHYP",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b27342ebeb54baec2b19a6816d6d",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e0242ebeb54baec2b19a6816d6d",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d0000485142ebeb54baec2b19a6816d6d",
+                        "width": 64
+                    }
+                ],
+                "name": "Retro Crowd",
+                "popularity": 34,
+                "type": "artist",
+                "uri": "spotify:artist:451UU345Ht2CuGIrkCQHYP"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2pTgkxpwt3m1IiNmWTQNiu"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 480
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/2pTgkxpwt3m1IiNmWTQNiu",
+                "id": "2pTgkxpwt3m1IiNmWTQNiu",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb960e3600ffc1dca3b4dc48bd",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174960e3600ffc1dca3b4dc48bd",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178960e3600ffc1dca3b4dc48bd",
+                        "width": 160
+                    }
+                ],
+                "name": "Count Draco",
+                "popularity": 29,
+                "type": "artist",
+                "uri": "spotify:artist:2pTgkxpwt3m1IiNmWTQNiu"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2zee4amgZunaTl3YyLz1iG"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 4336
+                },
+                "genres": [
+                    "doo-wop",
+                    "rhythm and blues"
+                ],
+                "href": "https://api.spotify.com/v1/artists/2zee4amgZunaTl3YyLz1iG",
+                "id": "2zee4amgZunaTl3YyLz1iG",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2736e54e40536c63655b2be1f82",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e026e54e40536c63655b2be1f82",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048516e54e40536c63655b2be1f82",
+                        "width": 64
+                    }
+                ],
+                "name": "The Crows",
+                "popularity": 24,
+                "type": "artist",
+                "uri": "spotify:artist:2zee4amgZunaTl3YyLz1iG"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2NOiyR3gQI6JTYmjAYMQzF"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 445
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/2NOiyR3gQI6JTYmjAYMQzF",
+                "id": "2NOiyR3gQI6JTYmjAYMQzF",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebfd48578c014657c8262437e7",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174fd48578c014657c8262437e7",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178fd48578c014657c8262437e7",
+                        "width": 160
+                    }
+                ],
+                "name": "Choking Crows",
+                "popularity": 6,
+                "type": "artist",
+                "uri": "spotify:artist:2NOiyR3gQI6JTYmjAYMQzF"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4Ph8i0LhNMp34YRBA6r1cq"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 1838
+                },
+                "genres": [
+                    "lo-fi vgm"
+                ],
+                "href": "https://api.spotify.com/v1/artists/4Ph8i0LhNMp34YRBA6r1cq",
+                "id": "4Ph8i0LhNMp34YRBA6r1cq",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebc5b6f096150d73681d2d491a",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174c5b6f096150d73681d2d491a",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178c5b6f096150d73681d2d491a",
+                        "width": 160
+                    }
+                ],
+                "name": "Crowcovers",
+                "popularity": 24,
+                "type": "artist",
+                "uri": "spotify:artist:4Ph8i0LhNMp34YRBA6r1cq"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1J2N3NAGAsKFLBbS0JJpxx"
+                },
+                "followers": {
+                    "href": None,
+                    "total": 488
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1J2N3NAGAsKFLBbS0JJpxx",
+                "id": "1J2N3NAGAsKFLBbS0JJpxx",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b273aa5aa6406c5abe450aedfe23",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e02aa5aa6406c5abe450aedfe23",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d00004851aa5aa6406c5abe450aedfe23",
+                        "width": 64
+                    }
+                ],
+                "name": "Craig Courtney",
+                "popularity": 22,
+                "type": "artist",
+                "uri": "spotify:artist:1J2N3NAGAsKFLBbS0JJpxx"
+            }
+        ],
+        "limit": 10,
+        "next": "https://api.spotify.com/v1/search?query=artist%3A+Counting+Crows&type=artist&offset=10&limit=10",
+        "offset": 0,
+        "previous": None,
+        "total": 162
+    }
+}
