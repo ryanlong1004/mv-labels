@@ -31,7 +31,7 @@ def process(path, artist, track):
     video.write_videofile(f"{path.split('.')[0]}.mp4")
 
 
-if __name__ == "__main__":
+def main():
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)
         # checking if it is a file
@@ -45,3 +45,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 continue
+
+
+if __name__ == "__main__":
+    main()
