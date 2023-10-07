@@ -1,10 +1,12 @@
 import os
+from .discogs import get_data
 from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip
+import json
 
-directory = "C:\\Users\\ryanl\\Desktop\\I Want my MTV\\Music Videos\\test"
+directory = "C:\\Users\\ryanl\\Desktop\\I Want my MTV"
 
 
-def process(path, artist, track):
+def process(path, artist, album, track, label):
     print(f"processing {path}")
     clip = VideoFileClip(path).subclip(50, 55)
 
@@ -12,7 +14,10 @@ def process(path, artist, track):
     txt_clip = TextClip(
         f"""
         {artist}
-        {track}""",
+        \"{track}\"
+        {album}
+        {label}
+        """,
         # size=clip.size,
         align="West",
         fontsize=35,
@@ -41,7 +46,14 @@ def main():
             try:
                 artist, track = file_name.split(" - ")
                 track = track.split("(")[0].split(".")[0]
-                process(_path, artist, track)
+                data = json.loads(get_data(artist, track))
+                process(
+                    _path,
+                    artist,
+                    data["album"],
+                    track,
+                    data["label"][0],
+                )
             except Exception as e:
                 print(e)
                 continue
