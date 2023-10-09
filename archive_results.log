@@ -1,0 +1,556 @@
+2023-10-09 21:29:09,071 src.discogs  DEBUG    Fetching data
+2023-10-09 21:29:09,075 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:29:09,456 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=./fixtures/White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 84
+2023-10-09 21:29:09,460 src.discogs  DEBUG    Fetching data
+2023-10-09 21:29:09,462 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:29:09,825 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=./fixtures/Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 84
+2023-10-09 21:52:23,253 src.discogs  DEBUG    Fetching data
+2023-10-09 21:52:23,257 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:52:23,953 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:52:23,961 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:52:24,425 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 21:52:24,431 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:52:24,838 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:52:24,842 src.discogs  DEBUG    Fetching data
+2023-10-09 21:52:24,844 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:52:25,440 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:52:25,450 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:52:25,947 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:52:25,952 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:52:26,366 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:53:33,910 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 21:53:33,910 src.discogs  DEBUG    Fetching data
+2023-10-09 21:53:33,914 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:53:34,285 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:53:34,318 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:53:34,708 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 21:53:34,713 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:53:35,112 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:53:35,117 root         DEBUG    processing
+2023-10-09 21:53:35,117 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 21:53:35,117 src.discogs  DEBUG    Fetching data
+2023-10-09 21:53:35,119 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:53:35,508 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:53:35,518 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:53:35,923 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:53:35,928 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:53:36,295 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:53:36,300 root         DEBUG    processing
+2023-10-09 21:54:37,302 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 21:54:37,303 src.discogs  DEBUG    Fetching data
+2023-10-09 21:54:37,307 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:37,680 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:37,687 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:38,062 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 21:54:38,068 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:38,436 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:38,441 root         DEBUG    processing
+2023-10-09 21:54:38,441 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 21:54:38,441 src.discogs  DEBUG    Fetching data
+2023-10-09 21:54:38,443 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:38,869 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:38,879 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:39,286 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:39,291 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:39,664 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:39,669 root         DEBUG    processing
+2023-10-09 21:54:49,855 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 21:54:49,856 src.discogs  DEBUG    Fetching data
+2023-10-09 21:54:49,860 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:50,234 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:50,241 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:50,624 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 21:54:50,629 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:51,019 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:51,024 root         DEBUG    processing
+2023-10-09 21:54:51,024 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 21:54:51,024 src.discogs  DEBUG    Fetching data
+2023-10-09 21:54:51,027 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:51,403 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:51,412 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:51,811 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:51,816 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:54:52,194 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:54:52,204 root         DEBUG    processing
+2023-10-09 21:56:00,323 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 21:56:00,323 src.discogs  DEBUG    Fetching data
+2023-10-09 21:56:00,327 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:56:00,708 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:56:00,716 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:56:01,109 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 21:56:01,115 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:56:01,501 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:56:01,505 root         DEBUG    processing
+2023-10-09 21:56:01,506 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 21:56:01,506 src.discogs  DEBUG    Fetching data
+2023-10-09 21:56:01,508 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:56:01,891 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:56:01,900 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:56:02,294 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:56:02,300 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:56:02,675 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:56:02,680 root         DEBUG    processing
+2023-10-09 21:58:08,520 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 21:58:08,521 src.discogs  DEBUG    Fetching data
+2023-10-09 21:58:08,525 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:58:09,083 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:58:09,091 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:58:09,466 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 21:58:09,471 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:58:09,849 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:58:09,853 root         DEBUG    processing
+2023-10-09 21:58:09,854 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 21:58:09,854 src.discogs  DEBUG    Fetching data
+2023-10-09 21:58:09,856 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:58:10,253 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:58:10,262 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:58:10,655 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:58:10,660 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 21:58:11,079 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 21:58:11,083 root         DEBUG    processing
+2023-10-09 22:00:41,327 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:00:41,328 src.discogs  DEBUG    Fetching data
+2023-10-09 22:00:41,332 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:00:41,721 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:00:41,728 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:00:42,112 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:00:42,117 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:00:42,503 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:00:42,508 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:00:42,508 src.discogs  DEBUG    Fetching data
+2023-10-09 22:00:42,510 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:00:42,908 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:00:42,918 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:00:43,320 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:00:43,326 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:00:43,706 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:08,371 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:01:08,372 src.discogs  DEBUG    Fetching data
+2023-10-09 22:01:08,376 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:08,735 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:08,742 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:09,122 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:01:09,128 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:09,506 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:09,510 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:01:09,511 src.discogs  DEBUG    Fetching data
+2023-10-09 22:01:09,513 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:09,911 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:09,921 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:10,298 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:10,304 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:10,674 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:38,176 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:01:38,176 src.discogs  DEBUG    Fetching data
+2023-10-09 22:01:38,180 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:38,585 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:38,592 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:38,975 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:01:38,980 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:39,348 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:54,134 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:01:54,135 src.discogs  DEBUG    Fetching data
+2023-10-09 22:01:54,139 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:54,588 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:54,596 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:54,985 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:01:54,990 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:55,361 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:55,782 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:01:55,782 src.discogs  DEBUG    Fetching data
+2023-10-09 22:01:55,785 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:56,164 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:56,193 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:56,575 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:01:56,581 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:01:56,958 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:03:11,297 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:03:11,298 src.discogs  DEBUG    Fetching data
+2023-10-09 22:03:11,302 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:03:11,732 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:03:11,739 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:03:12,142 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:03:12,147 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:03:12,541 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:03:12,545 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:03:12,545 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:03:12,944 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:03:12,944 src.discogs  DEBUG    Fetching data
+2023-10-09 22:03:12,946 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:03:13,353 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:03:13,381 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:03:13,748 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:03:13,754 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:03:14,124 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:03:14,129 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/Whitney Houston - I Will Always Love You (Official 4K Video).mkv
+2023-10-09 22:03:14,129 root         DEBUG    Whitney Houston - I Will Always Love You : I Will Always Love You: The Best Of Whitney Houston->Arista
+2023-10-09 22:07:46,493 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:07:46,493 src.discogs  DEBUG    Fetching data
+2023-10-09 22:07:46,497 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:07:46,923 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:07:46,933 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:07:47,300 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:07:47,306 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:07:47,680 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:07:47,685 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:07:47,685 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:07:48,090 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:07:48,090 src.discogs  DEBUG    Fetching data
+2023-10-09 22:07:48,092 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:07:48,470 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:07:48,498 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:07:48,866 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:07:48,872 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:07:49,373 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:07:49,378 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/Whitney Houston - I Will Always Love You (Official 4K Video).mkv
+2023-10-09 22:07:49,379 root         DEBUG    Whitney Houston - I Will Always Love You : I Will Always Love You: The Best Of Whitney Houston->Arista
+2023-10-09 22:08:44,636 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:08:44,636 src.discogs  DEBUG    Fetching data
+2023-10-09 22:08:44,640 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:08:45,119 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:08:45,132 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:08:45,515 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:08:45,520 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:08:45,906 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:08:45,910 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:08:45,911 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:08:46,438 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:08:46,438 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:08:46,439 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:08:46,440 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:08:46,440 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:08:46,455 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43183 123
+2023-10-09 22:08:46,456 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43318 15
+2023-10-09 22:08:46,456 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43345 37
+2023-10-09 22:08:46,456 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43394 37
+2023-10-09 22:08:46,469 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:08:46,508 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:08:46,508 src.discogs  DEBUG    Fetching data
+2023-10-09 22:08:46,511 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:08:47,908 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:08:47,917 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:08:48,288 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:08:48,294 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:08:48,688 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:08:48,693 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/Whitney Houston - I Will Always Love You (Official 4K Video).mkv
+2023-10-09 22:08:48,693 root         DEBUG    Whitney Houston - I Will Always Love You : I Will Always Love You: The Best Of Whitney Houston->Arista
+2023-10-09 22:08:49,610 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:08:49,610 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:08:49,610 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:08:49,611 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:08:49,612 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:08:49,612 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:08:49,656 PIL.PngImagePlugin DEBUG    STREAM b'zTXt' 121845 90
+2023-10-09 22:08:49,657 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 121947 15
+2023-10-09 22:08:49,657 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 121974 37
+2023-10-09 22:08:49,657 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 122023 37
+2023-10-09 22:08:49,689 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:09:48,601 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:09:48,601 src.discogs  DEBUG    Fetching data
+2023-10-09 22:09:48,605 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:09:48,993 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:09:49,001 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:09:49,366 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:09:49,372 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:09:49,758 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:09:49,762 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:09:49,762 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:09:50,306 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:09:50,306 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:09:50,306 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:09:50,307 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:09:50,308 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:09:50,324 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43183 123
+2023-10-09 22:09:50,324 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43318 15
+2023-10-09 22:09:50,324 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43345 37
+2023-10-09 22:09:50,324 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 43394 37
+2023-10-09 22:09:50,337 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:10:12,120 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:10:12,121 src.discogs  DEBUG    Fetching data
+2023-10-09 22:10:12,123 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:10:12,508 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:10:12,515 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:10:12,886 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:10:12,891 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:10:13,282 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:10:13,287 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/Whitney Houston - I Will Always Love You (Official 4K Video).mkv
+2023-10-09 22:10:13,287 root         DEBUG    Whitney Houston - I Will Always Love You : I Will Always Love You: The Best Of Whitney Houston->Arista
+2023-10-09 22:10:14,171 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:10:14,171 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:10:14,171 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:10:14,171 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:10:14,171 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:10:14,171 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:10:14,172 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:10:14,172 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:10:14,172 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:10:14,172 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:10:14,172 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:10:14,172 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:10:14,217 PIL.PngImagePlugin DEBUG    STREAM b'zTXt' 121845 90
+2023-10-09 22:10:14,217 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 121947 15
+2023-10-09 22:10:14,218 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 121974 37
+2023-10-09 22:10:14,218 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 122023 37
+2023-10-09 22:10:14,246 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:13:03,566 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:13:03,566 src.discogs  DEBUG    Fetching data
+2023-10-09 22:13:03,570 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:13:03,966 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:13:03,974 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:13:04,356 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:13:04,362 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:13:04,731 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:13:04,736 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:13:04,736 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:13:06,306 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:13:06,307 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:13:06,307 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:13:06,307 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:13:06,308 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:13:06,308 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:13:06,308 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:13:06,309 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:13:06,309 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:13:06,309 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:13:06,310 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:13:06,310 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:13:06,328 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 41491 123
+2023-10-09 22:13:06,328 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 41626 15
+2023-10-09 22:13:06,328 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 41653 37
+2023-10-09 22:13:06,329 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 41702 37
+2023-10-09 22:13:06,342 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:13:28,411 root         DEBUG    Found Whitney Houston, I Will Always Love You 
+2023-10-09 22:13:28,412 src.discogs  DEBUG    Fetching data
+2023-10-09 22:13:28,414 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:13:28,801 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=Whitney%20Houston%20-%20%20I%20Will%20Always%20Love%20You%20&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:13:28,808 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:13:29,193 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/510047?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:13:29,198 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:13:29,568 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/4029113?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:13:29,573 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/Whitney Houston - I Will Always Love You (Official 4K Video).mkv
+2023-10-09 22:13:29,574 root         DEBUG    Whitney Houston - I Will Always Love You : I Will Always Love You: The Best Of Whitney Houston->Arista
+2023-10-09 22:13:31,786 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:13:31,787 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:13:31,787 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:13:31,787 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:13:31,787 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:13:31,787 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:13:31,787 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:13:31,788 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:13:31,788 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:13:31,788 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:13:31,788 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:13:31,788 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 32768
+2023-10-09 22:13:31,845 PIL.PngImagePlugin DEBUG    STREAM b'zTXt' 124021 90
+2023-10-09 22:13:31,846 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 124123 15
+2023-10-09 22:13:31,846 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 124150 37
+2023-10-09 22:13:31,846 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 124199 37
+2023-10-09 22:13:31,875 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:14:08,064 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:14:08,064 src.discogs  DEBUG    Fetching data
+2023-10-09 22:14:08,068 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:14:08,531 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:14:08,539 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:14:08,924 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:14:08,929 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:14:09,303 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:14:09,307 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:14:09,307 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:14:10,806 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:14:10,806 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:14:10,806 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 20196
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:14:10,807 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:14:10,808 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 20196
+2023-10-09 22:14:10,825 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20327 123
+2023-10-09 22:14:10,825 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20462 15
+2023-10-09 22:14:10,825 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20489 37
+2023-10-09 22:14:10,825 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20538 37
+2023-10-09 22:14:10,838 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:15:28,550 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:15:28,550 src.discogs  DEBUG    Fetching data
+2023-10-09 22:15:28,554 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:15:28,924 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:15:28,932 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:15:29,311 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:15:29,316 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:15:29,678 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:15:29,682 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:15:29,683 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:15:31,197 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:15:31,197 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:15:31,197 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 20196
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:15:31,198 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:15:31,199 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 20196
+2023-10-09 22:15:31,216 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20327 123
+2023-10-09 22:15:31,216 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20462 15
+2023-10-09 22:15:31,216 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20489 37
+2023-10-09 22:15:31,216 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20538 37
+2023-10-09 22:15:31,230 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:15:41,695 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:15:41,695 src.discogs  DEBUG    Fetching data
+2023-10-09 22:15:41,699 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:15:42,097 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:15:42,106 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:15:42,490 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:15:42,495 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:15:42,862 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:15:42,866 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:15:42,866 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:15:44,352 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:15:44,352 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 20196
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:15:44,353 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:15:44,354 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:15:44,354 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:15:44,354 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 20196
+2023-10-09 22:15:44,371 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20327 123
+2023-10-09 22:15:44,371 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20462 15
+2023-10-09 22:15:44,371 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20489 37
+2023-10-09 22:15:44,371 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 20538 37
+2023-10-09 22:15:44,384 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:16:32,179 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:16:32,179 src.discogs  DEBUG    Fetching data
+2023-10-09 22:16:32,183 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:16:32,566 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:16:32,573 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:16:32,943 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:16:32,948 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:16:33,327 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:16:33,332 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:16:33,332 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:16:33,768 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:16:33,769 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:16:33,769 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:16:33,769 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:16:33,769 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:16:33,769 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 21886
+2023-10-09 22:16:33,770 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:16:33,770 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:16:33,770 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:16:33,770 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:16:33,770 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:16:33,771 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 21886
+2023-10-09 22:16:33,787 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22017 37
+2023-10-09 22:16:33,788 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22066 37
+2023-10-09 22:16:33,788 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22115 121
+2023-10-09 22:16:33,801 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:28:17,581 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:28:17,581 src.discogs  DEBUG    Fetching data
+2023-10-09 22:28:17,586 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:28:18,056 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:28:18,063 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:28:18,441 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:28:18,447 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:28:18,848 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:28:18,852 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:28:18,852 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:28:19,382 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:28:19,382 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:28:19,382 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:28:19,382 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 21886
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:28:19,383 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 21886
+2023-10-09 22:28:19,400 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22017 123
+2023-10-09 22:28:19,400 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22152 15
+2023-10-09 22:28:19,400 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22179 37
+2023-10-09 22:28:19,400 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22228 37
+2023-10-09 22:28:19,414 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:30:11,025 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:30:11,025 src.discogs  DEBUG    Fetching data
+2023-10-09 22:30:11,029 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:30:11,402 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:30:11,409 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:30:11,785 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:30:11,790 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:30:12,290 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:30:12,295 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:30:12,295 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:30:12,796 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:30:12,796 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:30:12,796 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:30:12,796 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:30:12,796 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 26433
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:30:12,797 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 26433
+2023-10-09 22:30:12,813 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 26564 123
+2023-10-09 22:30:12,813 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 26699 15
+2023-10-09 22:30:12,814 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 26726 37
+2023-10-09 22:30:12,814 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 26775 37
+2023-10-09 22:30:12,827 PIL.Image    DEBUG    Error closing: Operation on closed image
+2023-10-09 22:31:06,718 root         DEBUG    Found White Zombie, More Human Than Human
+2023-10-09 22:31:06,718 src.discogs  DEBUG    Fetching data
+2023-10-09 22:31:06,722 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:31:07,105 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /database/search?type=title&q=White%20Zombie%20-%20%20More%20Human%20Than%20Human&page=1&per_page=50&token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:31:07,113 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:31:07,488 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /masters/149389?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 1718
+2023-10-09 22:31:07,493 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): api.discogs.com:443
+2023-10-09 22:31:07,871 urllib3.connectionpool DEBUG    https://api.discogs.com:443 "GET /releases/1833751?token=HHMdiPjbrzgqSIZqHlVbaVrmVUUhMvyUwApfzOUn HTTP/1.1" 200 None
+2023-10-09 22:31:07,875 root         DEBUG    processing /home/rlong/apps/mv-labels/fixtures/White Zombie - More Human Than Human.mkv
+2023-10-09 22:31:07,876 root         DEBUG    White Zombie - More Human Than Human: More Human Than Human->Geffen Records
+2023-10-09 22:31:08,357 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:31:08,357 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:31:08,357 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:31:08,357 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:31:08,357 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 21886
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    STREAM b'IHDR' 16 13
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    STREAM b'gAMA' 41 4
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    STREAM b'cHRM' 57 32
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    STREAM b'bKGD' 101 6
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    b'bKGD' 101 6 (unknown)
+2023-10-09 22:31:08,358 PIL.PngImagePlugin DEBUG    STREAM b'IDAT' 119 21886
+2023-10-09 22:31:08,375 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22017 123
+2023-10-09 22:31:08,375 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22152 15
+2023-10-09 22:31:08,375 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22179 37
+2023-10-09 22:31:08,375 PIL.PngImagePlugin DEBUG    STREAM b'tEXt' 22228 37
+2023-10-09 22:31:08,388 PIL.Image    DEBUG    Error closing: Operation on closed image
