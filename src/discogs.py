@@ -14,4 +14,4 @@ def get_data(artist, track):
     for x in d.search(f"{artist} -  {track}", type="title"):
         result = x.data
         result["album"] = x.main_release.title
-        return json.dumps(x.data)
+        return json.dumps(result)

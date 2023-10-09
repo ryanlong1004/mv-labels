@@ -8,7 +8,12 @@ directory = "C:\\Users\\ryanl\\Desktop\\I Want my MTV"
 
 def process(path, artist, album, track, label):
     print(f"processing {path}")
-    clip = VideoFileClip(path).subclip(50, 55)
+    # clip = VideoFileClip(path).subclip(50, 55)
+    clip = VideoFileClip(path).subclip(0, 5)
+    w, h = clip.size
+
+    print(TextClip.list("font"))
+    exit()
 
     # Generate a text clip. You can customize the font, color, etc.
     txt_clip = TextClip(
@@ -18,16 +23,19 @@ def process(path, artist, album, track, label):
         {album}
         {label}
         """,
-        # size=clip.size,
+        size=(w, h / 2),
         align="West",
-        fontsize=35,
+        fontsize=h * 0.04,
         color="white",
-        # stroke_color="white",
-        font="kabel",
-    )
+        stroke_color="black",
+        stroke_width=1,
+        font="Kabel",
+        method="caption",
+        # size=(1080, 1920),
+    ).set_position("left", "bottom")
 
     # Say that you want it to appear 10s at the center of the screen
-    txt_clip = txt_clip.set_position(("left", "bottom")).set_duration(20)
+    txt_clip = txt_clip.set_position(("left", "bottom")).set_duration(7)
 
     # Overlay the text clip on the first video clip
     video = CompositeVideoClip([clip, txt_clip])

@@ -24,3 +24,6 @@ publish:
 
 lint:
 	pylint **/[^_]*.py && echo "linting"
+
+fonts:
+	magick convert -list font
